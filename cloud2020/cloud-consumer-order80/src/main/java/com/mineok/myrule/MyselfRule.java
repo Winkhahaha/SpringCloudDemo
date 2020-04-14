@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class MyselfRule {
-
     @Bean
     public IRule myRule(){
         // 负载均衡算法:随机
